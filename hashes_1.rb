@@ -40,17 +40,25 @@ print foods.keys
 
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
+email {
+  "sender" => "Bryce Simonds"
+  "recieved_by" => "You"
+  "subject" => "OPEN THIS NOW"
+  "date_sent" => "Today"
+  "is_unread" => true
+}
 
 # Write code that prints your email hash to the terminal.
+puts email
 
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-# YOUR CODE HERE
+puts email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-# YOUR CODE HERE
+puts email.values
 
 
 #-------------------
