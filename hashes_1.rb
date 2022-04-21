@@ -109,3 +109,32 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+emails = [
+  {
+  "sender" => "Bryce Simonds",
+  "recieved_by" => "Joe Smoe",
+  "subject" => "OPEN THIS NOW",
+  "date_sent" => "Today",
+  "is_unread" => true
+  },
+  {
+  "sender" => "Bryce Simonds",
+  "recieved_by" => "Joe Smoe",
+  "subject" => "Open this soon",
+  "date_sent" => "Yesterday",
+  "is_unread" => false
+  },
+  {
+  "sender" => "Bryce Simonds",
+  "recieved_by" => "Joe Smoe",
+  "subject" => "Open please",
+  "date_sent" => "April 19, 2022",
+  "is_unread" => false
+  }
+]
+
+puts emails [0]
+puts ""
+puts emails[1]
+puts ""
+puts emails [2]
