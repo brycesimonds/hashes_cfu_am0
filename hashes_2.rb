@@ -25,9 +25,9 @@ birthdays = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each friends name and birthday
-#
-#
-#
+birthdays.each do |friend, birthday|
+  puts "Hi #{friend}! Your birthday is #{birthday}, right?"
+end
 
 
 # ======================================
