@@ -41,6 +41,8 @@ login_statuses = {
 }
 
 # Use the each method to iterate through it and print ONLY the names of friends who are "logged in"
-#
-#
-#
+login_statuses.each do |name, boolean|
+  if boolean == true
+    puts "#{name} is logged in."
+  end
+end 
